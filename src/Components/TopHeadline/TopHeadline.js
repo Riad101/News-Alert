@@ -13,10 +13,24 @@ const TopHeadline = () => {
     },[])
     return (
         <div>
-            <h2>Top Headlines: {articles.length} </h2>
-            {
-                articles.map(article=> <News article={article}></News>)
-            }
+            <h1 style={{ 
+                textAlign: 'center',
+                margin: '1em',
+                }}>
+            
+            Top Headlines 
+            </h1>
+            <div style = {{ 
+                display: 'grid',
+                gridTemplateColumns: "repeat(3, 1fr)",
+                gridGap: '0.5rem',
+                justifyContent: 'center'
+                }}>
+                {
+                 articles.map(article=> <News article={article}></News>)
+                }
+            </div>
+            
         </div>
     );
 };
