@@ -1,4 +1,4 @@
-# Creative Agency Landing Page
+# News Alert
 
 <h3>Technologies Used</h3>
 <ul>
@@ -8,4 +8,4 @@
   <li> NewsAPI  </li>    
 </ul>
 <img src="public/AppSS.JPG">
-<a href="https://suspicious-mccarthy-595e30.netlify.app"><h1>LIVE SITE</h1></a>
+<a href="#"><h1>LIVE SITE</h1></a>
