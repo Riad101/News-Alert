@@ -5,15 +5,17 @@ const Header = () => {
   const jumbo = {
     padding: "4rem 2rem",
     marginBottom: "2rem",
-    backgroundColor: "var(--bs-light)",
-    borderRadius: ".3rem"
+    backgroundColor: "#6d6875",
+    borderRadius: ".3rem",
+    marginTop: "1rem",
+    TextAlign: "center",
+    color: "white"    
   }
   return (
     <div style={jumbo}>
       <h1>Breaking News!</h1>
         <p>
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
+          Get the latest news here!
         </p>
         <p>
           <Button variant="primary">Learn more</Button>
